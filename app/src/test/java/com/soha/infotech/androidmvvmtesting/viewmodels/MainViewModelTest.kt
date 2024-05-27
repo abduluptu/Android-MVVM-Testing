@@ -34,7 +34,6 @@ class MainViewModelTest {
     @Mock
     lateinit var repository: ProductRepository
 
-
     @Before
     fun setUp() {
         // Initialize mock/fake object

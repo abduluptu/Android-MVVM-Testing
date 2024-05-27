@@ -62,7 +62,7 @@ dependencies {
 
     //Step1:  Added dependencies
 
-    // core testing
+    // To test android architecture components
     testImplementation(libs.androidx.core.testing)
     androidTestImplementation(libs.core.testing.v210)
 
@@ -91,4 +91,7 @@ dependencies {
     // mockito
     testImplementation(libs.mockito.core)
     testImplementation(libs.mockito.kotlin)
+
+    // Mocking final classes
+    testImplementation(libs.mockito.inline)
 }
